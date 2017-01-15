@@ -1,0 +1,38 @@
+@media print and (orientation: landscape) {
+    /* landscape styles */
+    /* write specific styles for landscape e.g */
+    h1 {
+         color: #000;
+         background: none;
+      }
+
+      nav, aside {
+         display: none;
+      }
+
+   }
+
+@media print and (orientation: portrait) {
+    /* portrait styles */
+}
+
+@media (min-width: 576px)
+
+bd-top {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-width: .2rem;
+}
+
+.tweet-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  min-width: 300px;
+}
